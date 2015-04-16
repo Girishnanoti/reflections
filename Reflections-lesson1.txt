@@ -1,0 +1,25 @@
+Reflections :- lesson 1
+
+How did viewing a difference between two versions help you spot a bug?
+
+A. We go line by line on the two versions of the text. Since we are doing it manually ,it is easier for us to spot the difference (as we use to do in old puzzles 'spot the difference' , where we were shown 2 pictures and were asked to spot 10 differences,in a specified time frame). However this process will become tedious if a program has hundred's of lines of code.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+A.Having easy access to the entire history of file in terms of the changes made to the file-namely the date , time, by whom, and the reasons for making the changes. This will help us to keep a track or trace the version if any bug gets introduced. If number of persons are working on a file version control will help to identify the person who has introduced which version. The history will also help to reconcile if there are any conflicts between 2 versions.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+A.Manual option of saving a version help us to keep a tab on the number of versions. Depending upon the criticality one can decide to go for 1 combined commit or multiple commits and at what frequency. On the flop side it is also possible that one forgets to commit the changes , and later it becomes difficult to track the changes.Automatic saving ensures that all the changes are saved and are available at a later stage.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+A. Google docs treat each file commit seperately to facilitate easy tracking of each individual file. On the other hand Git allows consolidation of multiple files as one commit based on the criticality of the commit which is left to the discretion of the committer. This helps to reduce the number of commits and a better version control.
+
+How can you use the commands git log and git diff to view the history of files?
+A. Git log helps to provide the list of commits after the initial commit is made. Git diff is used to find the difference between the 2 commits.
+
+How might using version control make you more confident to make changes that could break something?
+A. Version control helps to have complete control over the changes made to the file. It becomes more important in a larger project where number of persons are simultaneously working.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+A. I would want to use Git for all the version control and for maintaining the repository of files.
