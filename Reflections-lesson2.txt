@@ -1,0 +1,22 @@
+Reflections-Lesson 2
+
+What happens when you initialize a repository? Why do you need to do it?
+A. We need to intialize a repository to create a sort of empty file where we will post all our commits.We need to intialize the repository as an initial step so that the following steps of maintaining the repository could follow. All the commits are made to an already exisiting repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+A.  Staging area is the place where the commits are staged in the working space before they are finally committed. It helps us to review our commits before they are made.
+
+How can you use the staging area to make sure you have one commit per logical change?
+A. Staging area helps to review our commits, before they are finally commited. In case the commits can be combined they can be reduced to ensure that we have only one commit per logical change. As said earlier , staging area helps to sort of review our commits and reduce the number of commits to only those which are necessary.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A. Branches are used when we are wanting to not to disturb our main project branch ie is the master branch. Branches helps the experimentation or trials so that they can be merged with the master only if it is considered deemed fit. Branches also help to involve multiple persons working simultaneously in a collaborative project.
+
+How do the diagrams help you visualize the branch structure?
+A.The diagrams show the interrelationship between the master and the other branches. it also helps to explain the detached head state. Any sort of visualization helps us to understand the concept better.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A. The result of merging the 2 branches is to ensure that we have all the changes incorporated which are indivdually present in the 2 branches. Subsequently the merged branch is merged in the master branch. We represent in the diagram to show convergence since the 2 branches loose their identity after merger.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A. Automatic merging is under threat of loosing the critical content in case the conflict is not resolved. Manual merge help us to go through the conflict portions to resolve before the commit is made.
